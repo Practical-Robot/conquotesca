@@ -1,0 +1,112 @@
+html{
+    display: block;
+    font-family: "Courier Prime", serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, .92);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: red;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: "Black Ops One", sans-serif;
+    font-weight: 500;
+    font-size: 3.8rem;
+    color: rgba(207, 23, 23, 0.95);
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: "Special Elite", serif;
+    line-height: 2.2rem;
+}
+
+header{
+    display: flex;
+    background-color: beige;
+    width: 60%;
+    align-content: center;
+    justify-content: center;
+}
+
+main{
+    width: 60%;
+    background-color: beige;
+}
+
+#generator{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    height: 35rem;
+    background-image: url(images/patriotBeaver.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+#generator p{
+    
+    background-color: rgba(49, 49, 43, 0.548);
+    line-height: 2.4rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rgba(245, 245, 220, 0.87);
+    padding: 0.3rem;
+    margin: 0.8rem;
+    
+}
+
+#doTheThing{
+    width: fit-content;
+    background-color: #2F414D;
+    color: rgba(245, 245, 220, 0.87);
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 0.4rem;
+    border: solid 2px #2e6991;
+    border-radius: 7px;
+    margin-bottom: 2rem;
+    justify-self: flex-end;
+    box-shadow: 0.2rem 0.2rem 0.1rem rgba(6, 45, 58, 0.699);
+}
+
+#doTheThing:hover{
+    width: fit-content;
+    background-color: #1a2a35;
+    color: rgba(245, 245, 220, 0.87);
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 0.4rem;
+    border: solid 2px #2e6991;
+    border-radius: 7px;
+    margin-bottom: 2rem;
+    justify-self: flex-end;
+    box-shadow: 0.25rem 0.25rem 0.15rem rgba(6, 45, 58, 0.699);
+}
+
+#doTheThing:active{
+    width: fit-content;
+    background-color: #7cc5f7;
+    color: rgba(78, 78, 70, 0.87);
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 0.4rem;
+    border: solid 2px #2e6991;
+    border-radius: 7px;
+    margin-bottom: 2rem;
+    justify-self: flex-end;
+    box-shadow: 0.25rem 0.25rem 0.15rem rgba(6, 45, 58, 0.699);
+}
