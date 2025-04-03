@@ -1,5 +1,5 @@
 html{
-    display: block;
+    display: flex;
     font-family: "Courier Prime", serif;
     font-size: 20px;
     color: rgba(0, 0, 0, .92);
@@ -7,6 +7,8 @@ html{
     padding: 0;
     text-align: center;
     background-color: red;
+    align-items: center;
+    justify-content:center ;
 }
 
 body{
@@ -15,6 +17,7 @@ body{
     align-content: center;
     justify-content: center;
     align-items: center;
+    width: 75%;
 }
 
 h1{
@@ -34,13 +37,13 @@ h2{
 header{
     display: flex;
     background-color: beige;
-    width: 60%;
+    width: 90%;
     align-content: center;
     justify-content: center;
 }
 
 main{
-    width: 60%;
+    width: 90%;
     background-color: beige;
 }
 
