@@ -19,7 +19,7 @@ const targetAgendas = ["The Gay Agenda", "Feminism", "BLM", "Wokeness", "The Tra
 const victimPeople = ["Pierre Polivier", "Stephen Harper", "Donald Trump", "Elon Musk", "Conrad Black", "Dr. Jordan Peterson"];
 
 // an array of typical virtuous groups
-const victimGroups = ["Christans", "Normal People", "Working Class", "Middle Class", "Common People", "Billionaires", "Caucasions", "Conservatives", "Children", "Western World"];
+const victimGroups = ["Christans", "People", "Working Class", "Middle Class", "Common People", "Billionaires", "Caucasions", "Conservatives", "Children", "Western World"];
 
 // an array of virtues
 const victimVirtues = ["Free Markets", "Family Values", "Common Sense", "Faith", "Traditional Values", "Guns", "Freedom", "Freedom of Religion", "Free Speech", "Churches"];
@@ -190,10 +190,10 @@ function badSentenceBuilder() {
                 stringArray[0] = "fuck "+arrayPicker(targetPeople);
                 break;
             case 2:
-                stringArray.push("will always");
+                stringArray.push("will let "+arrayPicker(victimVirtues)+" crumble around us while pushing for more "+arrayPicker(targetGroups));
                 break;
             case 3:
-                stringArray.push("is trying to");
+                stringArray.push("wants to get rid of "+arrayPicker(victimGroups)+" and replace them with "+arrayPicker(targetGroups));
                 break;
         }
     }
