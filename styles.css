@@ -144,6 +144,9 @@ main{
     body{
         width: 95%;
     }
+    #generator{
+        height: 45rem;
+    }
 }
 
 @media only screen and (max-width: 860px){
@@ -152,6 +155,9 @@ main{
     }
     body{
         width: 99%;
+    }
+    #generator{
+        height: 52rem;
     }
 }
 
@@ -162,5 +168,8 @@ main{
     }
     body{
         width: 100%;
+    }
+    #generator{
+        height: 60rem;
     }
 }
